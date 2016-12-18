@@ -1,0 +1,27 @@
+# Site settings
+title: AlboMiVida.com.ar El Sitio Web del Hincha Albo
+name: AlboMiVida.com.ar El Sitio Web del Hincha Albo
+url: "http://albomivida.com.ar"
+email: albomivida@tutanota.com
+description: AlboMiVida.com.ar El Sitio Web del Hincha Albo
+baseurl: "" # the subpath of your site, e.g. /blog/
+twitter_username: AlboMiVida_web  # Twitter ID
+github_username:  albomivida # Github ID
+weibo_username: albo  # Weibo ID
+facebook_username: AlboMiVida  # Facebook ID
+duoshuo_username: albo # Duoshuo ID
+baidushare_id: 
+baidutongji_id: 
+google-analytics_id: UA--- # Google Analytics ID
+rss_url: "/feed.xml"  # RSS 
+logo_image: "/images/logo.png"  # LOGO 
+# Build settings
+gems: [jekyll-paginate]
+markdown: rdiscount
+highlighter: pygments
+permalink: /:title/
+paginate: 8
+paginate_path: page/:num
+lang: es
+
+ 

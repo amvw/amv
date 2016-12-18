@@ -1,0 +1,21 @@
+---
+layout: page
+---
+
+<h2> Sorry this page does not exist =( </h2>
+ <div class="tips">
+  <p></p>
+   <p id="view"/>
+</div>
+
+<script>
+  var t = 5;
+  setInterval("testTime()", 1000);
+  function testTime() {
+    view.innerHTML = t + "...";
+    if(t == 0) {
+      location="{{ site.url }}";
+    }
+    t--;
+  }
+</script>

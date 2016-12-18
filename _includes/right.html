@@ -1,0 +1,53 @@
+
+
+  <div class="row">
+
+  </div>
+
+
+  <div class="row" style="text-align: center;border-radius: 10px;">
+
+<p style="text-align: center;border-radius: 10px;"><iframe style="visibility: visible; width: 230px; height: 450px;border-radius: 10px;" title="fb:page Facebook Social Plugin" src="http://www.facebook.com/plugins/page.php?adapt_container_width=true&amp;app_id=&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2FPqAPbTuc2cR.js%3Fversion%3D41%23cb%3Df3696a16ae9620e%26domain%3Dalbomivida.com.ar%26origin%3Dhttp%253A%252F%252Falbomivida.com.ar%252Ff2d9b8212ed644e%26relation%3Dparent.parent&amp;container_width=249&amp;height=450&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FAlbo-Mi-Vida%2F278368045009&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;show_posts=true&amp;small_header=false&amp;width=230" name="f170aafdcd6af" width="100%" height="450px" frameborder="0" scrolling="yes" allowfullscreen="allowfullscreen"></iframe></p>
+
+  </div>
+
+  <div class="row">
+
+<p style="text-align: center;"><a class="twitter-timeline" style="display: none ! important;" hidden="" href="https://twitter.com/AlboMiVida_web" data-widget-id="251125133689888771">Tweets por @AlboMiVida_web</a></p>
+
+  </div>
+
+
+  <div class="row">
+  <div class="row5">
+    <h4>Links</h4>
+    <ul >
+    
+      {% if site.twitter_username %}
+      <li>
+        <a href="https://twitter.com/{{ site.twitter_username }}">
+          <i class="fa fa-twitter"></i>
+          <span class="username">{{ site.twitter_username }}</span>
+        </a>
+      </li>
+      {% endif %}
+
+	  {% if site.facebook_username %}
+      <li>
+        <a href="https://www.facebook.com/pages/Albo-Mi-Vida/278368045009">
+          <i class="fa fa-facebook"></i>
+          <span class="username">{{ site.facebook_username }}</span>
+        </a>
+      </li>
+      {% endif %}
+
+      {% if site.rss_url %}
+      <li>
+        <a href="{{ site.rss_url | prepend: site.baseurl }}">
+          <i class="fa fa-rss"></i>
+          <span class="username"> RSS</span></a>
+      </li>
+      {% endif %}
+    </ul>
+  </div>
+  </div>

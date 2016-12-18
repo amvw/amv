@@ -1,0 +1,296 @@
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #23527c !important;
+}
+.navbar-toggle {
+    border-color: #23527c !important;
+}
+.navbar-toggle:focus {
+    border-color: #23527c !important;
+}
+
+.wrapper { text-align:center; margin: 0 auto  !important;padding: 0 ;
+}
+
+a.nada {
+display: block;
+text-align:center;
+    padding: 0px;
+   border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+
+box-shadow: none;
+
+}
+
+a.nada:hover {
+display: block;
+text-align:center;
+    padding: 0px;
+   border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+
+box-shadow: none;
+
+}
+
+.intro2 {
+ //   position: absolute;
+ //   top: 50%;
+ //   left: 50%;
+ //   width: 120px;
+ //   height: 120px;
+ //   margin:-60px 0 0 -60px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+.intro3 {
+ //   position: absolute;
+ //   top: 50%;
+ //   left: 50%;
+ //   width: 120px;
+ //   height: 120px;
+ //   margin:-60px 0 0 -60px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotateY(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotateY(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotateY(360deg); transform:rotateY(360deg); } }
+
+img.intro {
+
+ margin:auto; /* Required */
+
+ 	border: 0 none;
+ 	border-radius:0px;
+ 	padding:0px;
+ }
+img.intro2 {
+
+ margin:auto; /* Required */
+
+ 	border: 0 none;
+ 	border-radius:0px;
+ 	padding:0px;
+ }
+
+
+img.intro3 {
+
+ margin:auto; /* Required */
+
+ 	border: 0 none;
+ 	border-radius:0px;
+ 	padding:0px;
+ }
+
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+
+img.intro2 {
+width: 93px;
+height: 104px;
+ }
+
+img.intro3 {
+width: 0%;
+height: 0%;
+ }
+img.intro {
+width: 110%;
+ }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+
+img.intro3 {
+width: 0%;
+height: 0%;
+ }
+img.intro2 {
+width: 20%;
+height: 19%;
+ }
+img.intro {
+width: 120%;
+ }
+}
+
+
+
+
+
+@font-face{font-family:'Ubuntu';src:url('../fonts/Ubuntu-R.ttf') format('truetype'),url('../fonts/Ubuntu-RI.ttf') format('truetype'),url('../fonts/Ubuntu-B.ttf') format('truetype'),url('../fonts/Ubuntu-BI.ttf') format('truetype'), url(../fonts/Ubuntu.woff) format('woff'), url(../fonts/Ubuntu-Bold.woff) format('woff');}
+
+body {
+background:  -moz-linear-gradient(-45deg, rgba(39,92,227,0.26) 0%, rgba(136,165,240,0.26) 12%, rgba(39,92,227,0.26) 25%, rgba(136,165,240,0.26) 38%, rgba(39,92,227,0.26) 52%, rgba(136,165,240,0.25) 66%, rgba(39,92,227,0.25) 78%, rgba(136,165,240,0.25) 89%, rgba(39,92,227,0.24) 100%);
+background:   -webkit-linear-gradient(-45deg, rgba(39,92,227,0.26) 0%,rgba(136,165,240,0.26) 12%,rgba(39,92,227,0.26) 25%,rgba(136,165,240,0.26) 38%,rgba(39,92,227,0.26) 52%,rgba(136,165,240,0.25) 66%,rgba(39,92,227,0.25) 78%,rgba(136,165,240,0.25) 89%,rgba(39,92,227,0.24) 100%);
+background:   linear-gradient(135deg, rgba(39,92,227,0.26) 0%,rgba(136,165,240,0.26) 12%,rgba(39,92,227,0.26) 25%,rgba(136,165,240,0.26) 38%,rgba(39,92,227,0.26) 52%,rgba(136,165,240,0.25) 66%,rgba(39,92,227,0.25) 78%,rgba(136,165,240,0.25) 89%,rgba(39,92,227,0.24) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#42275ce3', endColorstr='#3d275ce3',GradientType=1 );
+
+
+
+	background-position:top center ;
+  font-family: Ubuntu,Helvetica, Tahoma, Arial, sans-serif;
+}
+
+p {
+    font-family: Ubuntu,Helvetica, Tahoma, Arial, sans-serif;
+}
+
+.navbar-inverse {
+    background-color: rgba(39,92,227,0.1) !important;
+    border-color: rgba(39,92,227,0.1) !important;
+color: rgba(39,92,227,0.9);
+}
+
+.navbar-nav > li > a {
+    color: #23527c !important;
+}
+
+.navbar-brand {
+    color: #23527c !important;
+}
+
+
+.fa {
+color: #23527c !important;
+}
+
+
+.navbar-inverse .navbar-brand {
+
+}
+
+.navbar-inverse .navbar-brand:hover {
+
+}
+
+img { max-width: 100%;
+	border-right:2px solid #202020;border-bottom:2px solid #202020;
+border-left:1px solid #fff;border-top:1px solid #fff;
+border-radius:10px;
+padding:2px;
+
+}
+/*
+article { 
+	border-right:2px solid #202020;border-bottom:2px solid #202020;
+border-left:1px solid #fff;border-top:1px solid #fff;
+border-radius:10px;
+padding:2px;
+
+}
+
+*/
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0 !important;
+    background: rgba(39,92,227,0.1) !important;
+    color: blue  !important;
+}
+
+pre {
+    background: rgba(39,92,227,0.1) !important;
+}
+
+div {
+border-radius: 10px;
+}
+
+p {
+border-radius: 10px;
+} 
+
+
+article {
+
+
+    padding: 0 15px 0 15px;
+   border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+box-shadow: 1px 1px 2px -1px rgba(255, 255, 255, 0.2) inset, 1px 1px 1px 1px rgba(39,92,227, 0.2);
+
+
+}
+
+article:hover {
+
+box-shadow: 1px 1px 2px -1px rgba(255, 255, 255, 0.2) , 1px 1px 1px 1px rgba(39,92,227, 0.2)inset;
+
+}
+
+iframe {
+
+   border-radius: 10px !important;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+box-shadow: 1px 1px 2px -1px rgba(255, 255, 255, 0.2) inset, 1px 1px 1px 1px rgba(39,92,227, 0.2);
+
+
+}
+
+iframe:hover {
+   border-radius: 10px !important;
+box-shadow: 1px 1px 2px -1px rgba(255, 255, 255, 0.2) , 1px 1px 1px 1px rgba(39,92,227, 0.2)inset;
+
+}
+
+.row5 {
+
+
+    padding: 15px;
+   border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+box-shadow: 1px 1px 2px -1px rgba(255, 255, 255, 0.2) inset, 1px 1px 1px 1px rgba(39,92,227, 0.2);
+
+
+}
+
+.row5:hover {
+    padding: 15px;
+box-shadow: 1px 1px 2px -1px rgba(255, 255, 255, 0.2) , 1px 1px 1px 1px rgba(39,92,227, 0.2)inset;
+
+}
+
+
+
+.avatar {
+  border-radius: 6px;
+  height: 230px;
+  width: 230px;
+}
+
+#goToTop{
+
+  display:block;
+  width:40px;
+  height:40px;
+  position:fixed;
+  bottom:10px;
+  right:10px;
+  border-radius:10px 10px 10px 10px;
+  text-decoration:none;
+  display:none;
+}
+
+#goToTop span{
+  display:block;
+  color:#dddddd;
+}
+
+#goToTop span:hover{
+  color:#cccccc;
+}
