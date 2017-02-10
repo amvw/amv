@@ -9,7 +9,8 @@ published: true
 ---
 **Fernando Lábake con un microdesgarro en su pierna izquierda.**
 
-<center><img scr="http://nuevodiariodesalta.com.ar/public/images/noticias/5375-labake-es-baja-en-el-equipo-de-botella.jpg"></center>
+![](http://nuevodiariodesalta.com.ar/public/images/noticias/5375-labake-es-baja-en-el-equipo-de-botella.jpg)
+
 
 
 El microdesgarro de Lábake es de 1mm en el cuadriceps de la pierna izquierda. Sin embargo, el zaguero estará disponible para la reanudación del Federal A, que se estipula para el próximo 3 de marzo.
